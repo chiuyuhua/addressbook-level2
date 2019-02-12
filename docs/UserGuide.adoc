@@ -79,6 +79,7 @@ Words in 'UPPER_CASE' are the paremeters.
 Examples:
 * 'edit name 1 YuHua'
 * 'edit name 2 Chiu'
+
 == Listing all persons : `list`
 
 Shows a list of all persons, along with their non-private details, in the address book. +
