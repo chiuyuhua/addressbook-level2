@@ -67,6 +67,18 @@ Examples:
 * `add John Doe p/98765432 e/johnd@gmail.com a/John street, block 123, #01-01`
 * `add Betsy Crowe pp/1234567 e/betsycrowe@gmail.com pa/Newgate Prison t/criminal t/friend`
 
+== Editing a person's name: 'edit name'
+
+Edit a person's name in the addressbook through identified index.
+Format: 'edit name INDEX NAME'
+
+****
+Words in 'UPPER_CASE' are the paremeters.
+****
+
+Examples:
+* 'edit name 1 YuHua'
+* 'edit name 2 Chiu'
 == Listing all persons : `list`
 
 Shows a list of all persons, along with their non-private details, in the address book. +
