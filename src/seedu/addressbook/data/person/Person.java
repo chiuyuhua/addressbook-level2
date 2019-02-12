@@ -62,6 +62,9 @@ public class Person implements ReadOnlyPerson {
         return new HashSet<>(tags);
     }
 
+    @Override
+    public changeName(String newName){this.name = newName;}
+
     /**
      * Replaces this person's tags with the tags in the argument tag set.
      */

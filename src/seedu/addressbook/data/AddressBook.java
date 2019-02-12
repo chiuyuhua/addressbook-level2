@@ -68,6 +68,8 @@ public class AddressBook {
         return new UniquePersonList(allPersons);
     }
 
+    public Person getPerson(int in)
+
     @Override
     public boolean equals(Object other) {
         return other == this // short circuit if same object
